@@ -1,0 +1,11 @@
+{
+    "color_scheme": "Packages/Grandson-of-Obsidian/GrandsonOfObsidian.tmTheme",
+    "copy_with_empty_selection": false,
+    "draw_white_space": "all",
+    "font_size": 13,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "trim_trailing_white_space_on_save": true
+}
