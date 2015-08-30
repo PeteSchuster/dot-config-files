@@ -22,7 +22,6 @@
     "onevar": true,
     "white": true,
     "globals": {
-        "_": false,
-        "WEBLINC": false
+        "_": false
     }
 }
