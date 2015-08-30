@@ -1,0 +1,45 @@
+# To install pages run: apm stars --install
+
+"*":
+  editor:
+    fontSize: 12
+    lineHeight: 1.4
+    showInvisibles: true
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    invisibles: {}
+  core:
+    followSymlinks: true
+    disabledPackages: [
+      "spell-check"
+      "markdown-preview"
+      "background-tips"
+      "color-picker"
+      "metrics"
+      "release-notes"
+      "styleguide"
+      "archive-view"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "exception-reporting":
+    userId: "4d5cf74f-b380-c874-5200-49e45241463b"
+  welcome:
+    showOnStartup: false
+  linter:
+    lintOnEditorFocus: false
+    showHighlighting: false
+  "atom-lint": {}
+  "linter-scss-lint":
+    scssLintExecutablePath: "/Users/pschuster/.rbenv/shims/scss-lint"
+  "tree-view": {}
+  "linter-jshint": {}
+  "linter-jscs":
+    preset: "crockford"
+".html.js.php.text.txt.jst":
+  editor:
+    tabLength: 4
+".text.txt.md":
+    softWrap: true
